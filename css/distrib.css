@@ -1,0 +1,70 @@
+
+.body__main--title {
+    font-size: 2.3rem;
+    color: var(--colorTitle);
+    padding: .35rem 0;
+    margin: .1rem 0 1rem 0;
+    text-align: center;
+}
+
+.body__main--ctn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.body__main--card {
+    background-color: rgb(231, 231, 222);
+    width: 40vw;
+    height: 160px;
+    border: 1px solid rgb(66, 42, 42);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.body__main--card-title {
+    font-family: var(--title);
+    color: var(--colorTitle);
+    font-size: 1.2rem;
+    margin: .1rem o;
+}
+
+.body__main--card-picture {
+    width: 60px;
+    height: 60px;
+    margin: -10px 0 10px 0;
+}
+
+.body__main--card-details {
+    width: 95%;
+    line-height: 115%;
+    padding-left: 2%;
+}
+
+.body__main--card-details-actor {
+    color: rgb(160, 4, 4);
+    text-align: center;
+    margin-top: -12px;
+    font-family: var(--subtitle);
+    font-size: 1.2rem;
+}
+
+.body__main--card-details-rule {
+    font-family: var(--text);
+    font-size: 1.1rem;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.body__main--card-link {
+    text-decoration: none;
+    color: red;
+    font-family: var(--subtitle);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
