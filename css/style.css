@@ -1,0 +1,593 @@
+.body__main--ctn {
+    width: 100%;
+    height: 80vh;
+    margin: 2.5% 0;
+}
+
+.body__main--ctn-title {
+    font-size: 2.3rem;
+    color: var(--colorTitle);
+    padding: .35rem 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.body__main--ctn-img {
+    background-image: url(../img/kaamelott.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 15rem;
+    margin: 2rem auto;
+}
+
+.body__main--ctn-text {
+    font-size: 1.2rem;
+    line-height: 125%;
+    margin: 2rem 0;
+}
+
+.body__main--ctn-more {
+    width: 100%;
+    text-align: center;
+}
+
+.body__main--ctn-more-link {
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--subtitle);    
+}
+
+#img-film {
+    width: 90%;
+    height: 170px;
+    background-image: url(../img/film.jpg);
+    background-size: cover;
+    margin: 2rem auto;
+}
+
+/* @media screen and (min-width: 425px) {
+
+    nav {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    a:hover {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        font-size: 18px;
+    }
+
+    a:hover {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    nav {
+        height: 150px;
+        font-size: 24px;
+    }
+
+    a:hover {
+        font-size: 26px;
+    }
+} */
+
+
+/* MAIN */
+/* 
+@media screen and (min-width: 320px) {
+    main {
+        width: 60vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    
+    /* SERIE */
+/*     
+    #serie, #distribution {
+        width: auto;
+        height: auto;
+        padding: 100px 0 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #film {
+        width: auto;
+        height: auto;
+        padding: 50px 0 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+        margin: 30px 0 20px 0;
+        letter-spacing: 5px;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .titleF {
+        font-size: 2.5rem;
+        margin: 20px 0 20px 0;
+        letter-spacing: 5px;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    
+    .serie, .serie1 {
+        width: 90vw;
+        height: auto;
+        line-height: 185%;   
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .img-ctn {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 10px;
+        background-image: url(img/kaamelott300.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .img {
+        margin: auto;
+        width: 300px;
+    }
+    
+    .intro {
+        margin: 10px 15px;
+        text-align: justify;
+        font-size: 12px;
+    } */
+    
+    /* DISTRIBUTION */
+/*     
+    #distrib {
+        background: #000;
+        color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    
+    .distrib-ctn {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
+    
+    .images-distrib {
+        width: 85px;
+        height: 170px;
+        border: 2px solid red;
+        margin: 10px;
+        background-color: #f1f1f1;
+    }
+    
+    .images-distrib img {
+        margin: 15px 10px;
+    }
+    
+    .txt-ctns {
+        position: relative;
+        font-size: .9rem;
+        color: gray;
+        text-align: center;
+    }
+    
+    .name {
+        padding-bottom: 10px;
+        font-weight: 700;
+    
+    }
+    
+    .txt-ctn p {
+        font-size: 1rem;
+        color: grey;
+    }
+    
+    .ctn-img {
+        margin: 15px 10px;
+        background-image: url("img/fPitiot.jpg");
+        background-position: center;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .ctn-img1 {
+        margin: 15px 10px;
+        background-image: url("img/aGirouard.jpg");
+         background-position: center;
+         background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .ctn-img2 {
+        margin: 15px 10px;
+        background-image: url("img/tCousseau.jpg");
+         background-position: center;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .ctn-img3 {
+        background-image: url("img/film.jpg");
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .petite{
+        background-color: #000;
+        margin: 15px 10px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .lien {
+        color: brown;
+    }    
+}
+
+@media screen and (min-width: 425px) {
+    .distrib-ctn {
+        width: 95%;
+    }
+    .images-distrib {
+        width: 105px;
+        margin: 15px;
+        border-radius: 5%;
+    }
+
+    .ctn-img, .ctn-img1, .ctn-img2, .petite, .images-distrib img {
+        width: 70px;
+        height: 70px;
+        margin: 15px;
+    }
+
+    .ctn-img3, .img-ctn {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #film, #serie {
+        width: 70vw;
+    }
+    .serie1, .serie {
+        display: flex;        
+    }
+
+    .ctn-img3 {
+        width: 600px;
+        height: 350px;
+        background-image: url(img/film600.jpg);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-ctn {
+        background-image: url(img/kaamelott600.jpg);
+        width: 600px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .intro {
+        width: 75%;
+    }
+
+    .intro, .lien {
+        font-size: 16px;
+    }
+
+    .distrib-ctn {
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+    .images-distrib {
+        width: 125px;
+        height: 200px;
+        margin: 15px;
+        border-radius: 5%;
+    }
+
+    .ctn-img, .ctn-img1, .ctn-img2, .petite, .images-distrib img {
+        width: 90px;
+        height: 90px;
+        margin: 15px;
+    }    
+}
+
+
+@media screen and (min-width: 1024px) {
+    .img-ctn {
+        background-image: url(img/kaamelott900.jpg);
+        width: 900px;
+        height: 507px;
+    }
+
+     .distrib-ctn {
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    }
+     
+    .ctn-img3 {
+        background-image: url(img/film900.jpg);
+        width: 900px;
+        height: 507px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #serie {
+        padding: 200px 0 50px 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .intro, .lien {
+        font-size: 20px;        
+    }
+
+    .images-distrib {
+        width: 150px;
+    }
+
+    .ctn-img, .ctn-img1, .ctn-img2, .petite {
+        margin: 25px;
+        position: center;
+    }
+
+    .ab {
+        margin: 25px;
+    }
+} */
+
+/* FOOTER */
+/* @media screen and (min-width: 320px) { */
+    /* footer {
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        color: antiquewhite;
+        height: 270px;
+        width: 100%;
+        position: relative;
+    }
+    
+    footer h2 {
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin: 20px 0;
+    } */
+    
+    /* CARROUSEL */
+    /* .slideshow-container {
+      width: 300px;
+      height: 350px;
+      position: relative;
+      margin: auto;
+    }
+     */
+    /* cache la video par défaut */
+    /* .mySlides {
+      display: none;
+    }
+     */
+    /* boutons suivant et précédent */
+    /* .prev, .next {
+        z-index: 100;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: solid 2px red;
+        transform: translateY(50%);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: red;
+        font-size: 2.5rem;
+        margin: 0 50px;
+    }
+     */
+    /* Position boutons en vertical et horizontal */
+    /* .next {
+        position: absolute;
+        top: 40%;
+        right: 0px;
+    }
+    
+    .prev {
+        position: absolute;
+        top: 40%;
+        left: 0px;
+    }
+     */
+    /* au hover, modifier background color with a little bit see-through */
+    /* .prev:hover, .next:hover {
+      background-color: #181818;
+    }
+    
+    .ctn-video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        color: white;
+        font-size: 1.8rem;
+        letter-spacing: 3px;
+        padding: 0px 12px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    video {
+        width: 200px;
+        margin: 20px 50px; 
+        border: 2px solid red;
+    }
+     */
+    /* Fading animation */
+    /* .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+}
+
+@media screen and (min-width: 425px) {
+    footer {
+        height: 350px;
+    }
+    footer h2 {
+        font-size: 22px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .next {
+        position: absolute;
+        top: 40%;
+        right: 5px;
+    }
+    
+    .prev {
+        position: absolute;
+        top: 40%;
+        left: 5px;
+    }
+
+    .ctn-video {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    video {
+        width: 300px;      
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        height: 500px;
+    }
+    footer h2 {
+        font-size: 22px;
+    }
+
+    .slideshow-container {
+        height: 500px;
+    }
+    
+    .next, .prev {
+        width: 50px;
+        height: 50px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    video {
+        width: 600px;      
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   #pepites {
+    font-size: 25px;
+   }
+
+   .next, .prev {
+        top: 30%;
+        width: 70px;
+        height: 70px;
+        margin: 40px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        height: 900px;
+    }
+
+    .slideshow-container {
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .next, .prev {
+        width: 70px;
+        height: 70px;
+        margin: 40px;
+    }
+    
+    video {
+        width: 1000px;
+    }
+} */
